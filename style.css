@@ -277,8 +277,6 @@ a.text:hover, a.text:active {
 /*----------------MAIN TEXT OVER IMAGE - optional-----------------*/
 .container {
 	position: relative;
-    background-image: url(img/hero_vid_1.gif);
-    height: 100vh;
     background-size: cover;
     background-position: 50% 50%;
 }
