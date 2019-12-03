@@ -17,7 +17,7 @@ body {
 
 /*----------------navigation section-----------------*/
 header {
-	height: 105px; /*(height of nav bar)*/
+	height: 100px; /*(height of nav bar)*/
 	position: fixed; /*(keeps nav bar visible when scrolling)*/
 	width: 100%;
 	top: 0;
@@ -67,7 +67,7 @@ nav ul li a,
 nav ul li a:visited {
     display: block;
     padding: 0 20px;
-    line-height: 105px;
+    line-height: 100px;
     background-color: #042F70;
     color: #D93B58;
     text-decoration: none;
@@ -279,7 +279,10 @@ a.text:hover, a.text:active {
 	position: relative;
     background-size: cover;
     background-position: 50% 50%;
+    padding-top: 100px;
 }
+
+
 
 /* Centers text, adds semi-transparent border *
 .centered {
@@ -475,49 +478,8 @@ footer a:hover {
 }
 
 /*-----animated welcome-----*/
-html{
-			margin:0;
-			padding:0;
-			width:100%;
-		}
-		body{
-			margin:0;
-			padding:0;
-			width:100%;
-			text-align:center;
-			background-size:cover;
-            background:url(hd.jpg) no-repeat 50% 50%;
-			height: 100vh;
-		/*-----causing issues-----*	display:table; /*-----animated welcome-----*/
-		}
-		.wrapper{
-		
-			position:absolute;
-			top:52%;
-			left: 53%;
-			transform: translate(-50%, -50%);
-			width:60%;
-		}
-		
-		path{		
-			stroke:#fff;
-			fill:#fff;
-			stroke-dasharray:1800;
-			opacity:10;
-			animation:animate 10s cubic-bezier(0,.23,1,.1) infinite;
-			}
-		@keyframes animate{
-			20%{
-				opacity:10;
-				fill:none;
-				stroke-dashoffset:1800;}
-			90%{
-				fill:rgba(255,255,255,0);}
-			100%{
-			     opacity:10;
-				fill:rgba(255,255,255,1);
-				stroke-dashoffset:0;}
-		}
+
+
 /*----smooth scroll----*/
 html {
   scroll-behavior: smooth
